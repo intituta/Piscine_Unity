@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00335d26e8d4f8142b4023bd7e01082c, type: 3}
+  m_Name: Uzi
+  m_EditorClassIdentifier: 
+  artWorkUnequip: {fileID: 21300000, guid: 3a582ad63bf63437ca436507f3c5fbe8, type: 3}
+  artWorkEquip: {fileID: 21300000, guid: 43a139c7bee644f6f96d3ce30cc7cc15, type: 3}
+  bulletObj: {fileID: 4585028533262800382, guid: f084beb461b434fbd870b8b0cdeddbde, type: 3}
+  weaponName: Uzi
+  ammo: 30
+  fireRate: 0.1
+  soundRadius: 2.5
