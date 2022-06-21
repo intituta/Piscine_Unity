@@ -7,6 +7,6 @@ public class ScreamerDestroy : MonoBehaviour {
 	void  OnTriggerStay ( Collider other  ){
 		if(other.tag == "Player");
 		monstr.active = false; 
-		Destroy(monstr); 
+		//Destroy(monstr); 
 	}
 }
