@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/opt/goinfre/kferterb/my/day08
+/opt/goinfre/kferterb/my_new/day08
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51161
-Successfully changed project path to: /opt/goinfre/kferterb/my/day08
-/opt/goinfre/kferterb/my/day08
+59207
+Successfully changed project path to: /opt/goinfre/kferterb/my_new/day08
+/opt/goinfre/kferterb/my_new/day08
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,11 +54,11 @@ Successfully changed project path to: /opt/goinfre/kferterb/my/day08
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 102.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 99.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path /opt/goinfre/kferterb/2021.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /opt/goinfre/kferterb/my/day08/Assets
+[Subsystems] Discovering subsystems at path /opt/goinfre/kferterb/my_new/day08/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 iMac preferred device: AMD Radeon Pro 570X (high power)
 Metal devices available: 1
@@ -69,79 +69,79 @@ Initialize mono
 Mono path[0] = '/opt/goinfre/kferterb/2021.3.4f1/Unity.app/Contents/Managed'
 Mono path[1] = '/opt/goinfre/kferterb/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/opt/goinfre/kferterb/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /opt/goinfre/kferterb/2021.3.4f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /opt/goinfre/kferterb/2021.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001153 seconds.
+Registered in 0.001249 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 93.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 98.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.747 seconds
+- Completed reload, in  0.816 seconds
 Domain Reload Profiling:
-	ReloadAssembly (748ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (817ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (552ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (597ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (140ms)
+			SetupTypeCache (180ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (321ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (318ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
+				RefreshPlugins (98ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (167ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002896 seconds.
+Registered in 0.002876 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /opt/goinfre/kferterb/my/day08/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /opt/goinfre/kferterb/my/day08/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /opt/goinfre/kferterb/my_new/day08/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /opt/goinfre/kferterb/my_new/day08/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.355 seconds
+- Completed reload, in  1.384 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1356ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (1399ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1101ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (1125ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (361ms)
+			SetupTypeCache (368ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (540ms)
+			SetupLoadedEditorAssemblies (555ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (281ms)
-				ProcessInitializeOnLoadMethodAttributes (153ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (157ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,12 +151,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /opt/goinfre/kferterb/2021.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4014 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (44.2 KB). Loaded Objects now: 4443.
-Memory consumption went from 253.6 MB to 253.5 MB.
-Total: 6.568233 ms (FindLiveObjects: 0.282612 ms CreateObjectMapping: 0.213389 ms MarkObjects: 5.987073 ms  DeleteObjects: 0.084232 ms)
+Unloading 64 unused Assets / (44.3 KB). Loaded Objects now: 4444.
+Memory consumption went from 253.9 MB to 253.8 MB.
+Total: 6.937892 ms (FindLiveObjects: 0.284941 ms CreateObjectMapping: 0.201504 ms MarkObjects: 6.361494 ms  DeleteObjects: 0.088920 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,874 +170,37 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 212444.027827 seconds.
-  path: Assets/BordelandsTextures/textures/quartz_block_side.png
-  artifactKey: Guid(e223c5d607aa63243b41a442633ab6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/quartz_block_side.png using Guid(e223c5d607aa63243b41a442633ab6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49f4d76d70ea6540b089ecdc5635375') in 0.635945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/BordelandsTextures/textures/furnace_front_off.png
-  artifactKey: Guid(f174c4d9c036e7d4da71026ac1bbb966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/furnace_front_off.png using Guid(f174c4d9c036e7d4da71026ac1bbb966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe6e3d8ae87dd26d036db697e88a12a') in 0.007794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/BordelandsTextures/textures/bed_head_side.png
-  artifactKey: Guid(401fcd638462a1f44b494d46c9501759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/bed_head_side.png using Guid(401fcd638462a1f44b494d46c9501759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371113483a304fa027f2a21a1893effa') in 0.007697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/BordelandsTextures/textures/leaves_oak_opaque.png
-  artifactKey: Guid(504e79384780560489462b5c4a89c72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/leaves_oak_opaque.png using Guid(504e79384780560489462b5c4a89c72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19be32b0feb0b20c71af955e996b8af0') in 0.010826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/BordelandsTextures/textures/hardened_clay_stained_silver.png
-  artifactKey: Guid(8470a23e8c664d24e9c1db410acb6868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/hardened_clay_stained_silver.png using Guid(8470a23e8c664d24e9c1db410acb6868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b54c07d1e025d4243cff1c9bb096004') in 0.007043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/BordelandsTextures/textures/ice.png
-  artifactKey: Guid(9d62eadc29ff63c478bdf810f6bf7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/ice.png using Guid(9d62eadc29ff63c478bdf810f6bf7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e45020c81ee6c62f197056a6fd803a4') in 0.007104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/BordelandsTextures/textures/glass_cyan.png
-  artifactKey: Guid(6529e31fbd4d4474a85ec7cb5f8fce24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/glass_cyan.png using Guid(6529e31fbd4d4474a85ec7cb5f8fce24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4a90d1e6e5936d2742a7b71cae77ce') in 0.008195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/BordelandsTextures/textures/cobblestone.png
-  artifactKey: Guid(b3a85e10f6e8b8643a967ccdb5fd78b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/cobblestone.png using Guid(b3a85e10f6e8b8643a967ccdb5fd78b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e3b02c7cc25c5fc736b7a3c456ae02') in 0.008917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/BordelandsTextures/textures/carrots_stage_1.png
-  artifactKey: Guid(a9afcd3522895f94691a41a69d4ccac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/carrots_stage_1.png using Guid(a9afcd3522895f94691a41a69d4ccac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0c9ec182d4fa77c314722c2a8aa995') in 0.006480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/BordelandsTextures/textures/hardened_clay_stained_white.png
-  artifactKey: Guid(1c660a651616e5941bb301265b094510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/hardened_clay_stained_white.png using Guid(1c660a651616e5941bb301265b094510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52521ca0a227b8358941855082f73790') in 0.006983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/BordelandsTextures/textures/crafting_table_top.png
-  artifactKey: Guid(4a46bad4d3bbc6140ae88eed16eef0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/crafting_table_top.png using Guid(4a46bad4d3bbc6140ae88eed16eef0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5ebd344f982fde7f80d9e4f4a48fb6') in 0.007915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/BordelandsTextures/textures/planks_birch.png
-  artifactKey: Guid(a59a03b4bbecf8442a642c30180bbddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/planks_birch.png using Guid(a59a03b4bbecf8442a642c30180bbddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889b3e4973da769655f47020bb506750') in 0.007859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/BordelandsTextures/textures/rail_activator.png
-  artifactKey: Guid(cd717c746f892cb4ca8f8d8b7e2cdf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/rail_activator.png using Guid(cd717c746f892cb4ca8f8d8b7e2cdf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c175c16c1bc80f77cbcfab6e39d55a79') in 0.007348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/BordelandsTextures/textures/planks_oak.png
-  artifactKey: Guid(a7b38100a61e3dc4d89cdb31bad90b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/planks_oak.png using Guid(a7b38100a61e3dc4d89cdb31bad90b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c216df559a7d75c7e54742c105ecd6') in 0.007558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/BordelandsTextures/textures/glass_gray.png
-  artifactKey: Guid(7a4ebfe25ab7c55488da667ddcec42f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/glass_gray.png using Guid(7a4ebfe25ab7c55488da667ddcec42f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99e3ea82a1c680dad66542715b814e7') in 0.007676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/BordelandsTextures/textures/redstone_block.png
-  artifactKey: Guid(4744c60e075307041ab18d93059e3a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/redstone_block.png using Guid(4744c60e075307041ab18d93059e3a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bd4b813c154847ec46be3fc405f1cd') in 0.007629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/BordelandsTextures/textures/hardened_clay_stained_green.png
-  artifactKey: Guid(43b04702cd04e0e4b802266927d4c325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/hardened_clay_stained_green.png using Guid(43b04702cd04e0e4b802266927d4c325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24f99d4ceebacbd5e20ed5a6756e522') in 0.007597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/BordelandsTextures/textures/coal_ore.png
-  artifactKey: Guid(62ad650699820eb4db7eb2f825f7afdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/coal_ore.png using Guid(62ad650699820eb4db7eb2f825f7afdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efb4e1afd11c1942c4599fdafc236b6') in 0.008782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/BordelandsTextures/textures/planks_jungle.png
-  artifactKey: Guid(55c01dfd8da145b46a3adec1a733811a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/planks_jungle.png using Guid(55c01dfd8da145b46a3adec1a733811a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f39c7b2f9809d1faef7b13bcb10f237') in 0.006643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/BordelandsTextures/textures/carrots_stage_3.png
-  artifactKey: Guid(3f2a3eb284e95f340b840547ac948d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/carrots_stage_3.png using Guid(3f2a3eb284e95f340b840547ac948d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bab070fb1f271605ad2622dc1efcb8') in 0.006374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/BordelandsTextures/textures/obsidian.png
-  artifactKey: Guid(4c99a26322fa64845862430c37ffa35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/obsidian.png using Guid(4c99a26322fa64845862430c37ffa35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7641ec86ebe6937a474a009c95631110') in 0.006865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/BordelandsTextures/textures/hardened_clay_stained_purple.png
-  artifactKey: Guid(f8b2ab8811c319748acb52d21206f669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/hardened_clay_stained_purple.png using Guid(f8b2ab8811c319748acb52d21206f669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47ba61d8dbe9b632b3063f0a4f5296b') in 0.008643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/BordelandsTextures/textures/double_plant_paeonia_top.png
-  artifactKey: Guid(da073a2e8472be54da2ec96291fd95ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/double_plant_paeonia_top.png using Guid(da073a2e8472be54da2ec96291fd95ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b4b40dacfaafd29fa46b2b8a8d136e') in 0.006460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/BordelandsTextures/textures/quartz_block_top.png
-  artifactKey: Guid(ce2d1cff16548a7448cb5cde94a7182b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/quartz_block_top.png using Guid(ce2d1cff16548a7448cb5cde94a7182b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3224a8788909c97a87792b1f92a44d6a') in 0.006751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/BordelandsTextures/textures/glass.png
-  artifactKey: Guid(f463ab67ef80798429583e4007a40295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/glass.png using Guid(f463ab67ef80798429583e4007a40295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517807127429ae763949aca58cc9c581') in 0.006810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/BordelandsTextures/textures/glass_black.png
-  artifactKey: Guid(e9c29c39c86868c4ebe32323eea242d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/glass_black.png using Guid(e9c29c39c86868c4ebe32323eea242d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d65c091f5a9c70c8e80c728dd935d86') in 0.008386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/BordelandsTextures/textures/rail_activator_powered.png
-  artifactKey: Guid(44347a01f1447374e898cd4e45135d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/rail_activator_powered.png using Guid(44347a01f1447374e898cd4e45135d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7832601a944cd11cd98351147012efa') in 0.007213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/BordelandsTextures/textures/cactus_top.png
-  artifactKey: Guid(42ed105c77e764249ab3235d358f1be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/cactus_top.png using Guid(42ed105c77e764249ab3235d358f1be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732cb80fc03d329a040971aab6a0aaa7') in 0.006945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/cauldron_side.png
-  artifactKey: Guid(169ec836ad091824ba33a157b871e55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/cauldron_side.png using Guid(169ec836ad091824ba33a157b871e55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71df29e53d144a49564079a2c825f5c') in 0.006637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/BordelandsTextures/textures/glass_light_blue.png
-  artifactKey: Guid(185cf21b5bc521d47b51b3dca1a07612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/glass_light_blue.png using Guid(185cf21b5bc521d47b51b3dca1a07612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc25ef10d7a1f1315b35bcafeec49c72') in 0.007013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/BordelandsTextures/textures/gravel.png
-  artifactKey: Guid(63385ed3ace02bd45959025eda7ecdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/gravel.png using Guid(63385ed3ace02bd45959025eda7ecdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a12e72a84e0223542e2d0181ccc8e08') in 0.007388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/BordelandsTextures/textures/iron_bars.png
-  artifactKey: Guid(41fb25f0ba867994886cd009fe0deeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/iron_bars.png using Guid(41fb25f0ba867994886cd009fe0deeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877dd54c27a924100cc23f8bf1e965ab') in 0.006784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/BordelandsTextures/textures/cauldron_bottom.png
-  artifactKey: Guid(2e69f5434e13c1b4eb4d67f00f48e898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/cauldron_bottom.png using Guid(2e69f5434e13c1b4eb4d67f00f48e898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2817f1ce74a9f9b525385e32299e9f') in 0.008125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/BordelandsTextures/textures/redstone_ore.png
-  artifactKey: Guid(d1e9bbf771c38ad4984054c12da24d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/redstone_ore.png using Guid(d1e9bbf771c38ad4984054c12da24d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bf64b135856934b1888d08df32a09d') in 0.007486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/BordelandsTextures/textures/mushroom_brown.png
-  artifactKey: Guid(273598493e87f304aad8f757445dbc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/mushroom_brown.png using Guid(273598493e87f304aad8f757445dbc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce57b04eb85ba7af99c0cb3bbbdfb31e') in 0.006476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/BordelandsTextures/textures/rail_normal_turned.png
-  artifactKey: Guid(7bc9b0cc7f67a574f9076c8f84570213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/rail_normal_turned.png using Guid(7bc9b0cc7f67a574f9076c8f84570213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dc835b30bdf03264a32098a2c463b9') in 0.006810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/BordelandsTextures/textures/leaves_birch_opaque.png
-  artifactKey: Guid(40a24cd1d868af3448dbeacbe5472ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/leaves_birch_opaque.png using Guid(40a24cd1d868af3448dbeacbe5472ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa2a472aa75d1010c5b76db47f9ad07') in 0.007361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/BordelandsTextures/textures/bed_feet_side.png
-  artifactKey: Guid(0277a355bfd5b36418b4155c12404b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/bed_feet_side.png using Guid(0277a355bfd5b36418b4155c12404b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9d4d71375fa433fd2de0dbdfbc199b') in 0.006662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/BordelandsTextures/textures/grass_side.png
-  artifactKey: Guid(8ce7b00a4272b4c4b9343f72707dcedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/grass_side.png using Guid(8ce7b00a4272b4c4b9343f72707dcedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db78e59e423c84b682705a8d5193a9d') in 0.007208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/BordelandsTextures/textures/furnace_front_on.png
-  artifactKey: Guid(a0419cf4ad8290243b5391823d0b956d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/furnace_front_on.png using Guid(a0419cf4ad8290243b5391823d0b956d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83d25a0575909d229c58290b31c694c') in 0.007488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/glass_brown.png
-  artifactKey: Guid(7816d325ff18c984da4b9b883995705e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/glass_brown.png using Guid(7816d325ff18c984da4b9b883995705e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b063a12af50768f7c15bf65a1dc5c2c2') in 0.006948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/BordelandsTextures/textures/grass_side_overlay.png
-  artifactKey: Guid(1a6f6beec580520439e51616af8d4908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/grass_side_overlay.png using Guid(1a6f6beec580520439e51616af8d4908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619235a380b97554dd35c2688ab72b39') in 0.006767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/brick.png
-  artifactKey: Guid(d56a94d057431ec4290eda4096da0365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/brick.png using Guid(d56a94d057431ec4290eda4096da0365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a75781122ccc6e11b56a768ad237cb') in 0.006814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/hardened_clay_stained_blue.png
-  artifactKey: Guid(6e51b7f7702a54049a821afb4c508ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/hardened_clay_stained_blue.png using Guid(6e51b7f7702a54049a821afb4c508ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3ec7bef685176e1a3a2175efed2fd0') in 0.006949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/BordelandsTextures/textures/jukebox_side.png
-  artifactKey: Guid(1df02c0faf7e07c42891d969bcec8fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/jukebox_side.png using Guid(1df02c0faf7e07c42891d969bcec8fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7116f23aa19a402cf02648b2ab51091b') in 0.006962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/door_iron_lower.png
-  artifactKey: Guid(05a1c34acec8bf64db1d84d9c7279983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/door_iron_lower.png using Guid(05a1c34acec8bf64db1d84d9c7279983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7030ed7e1dac7323cccf6b7b8cb622') in 0.006809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/BordelandsTextures/textures/rail_detector_powered.png
-  artifactKey: Guid(1d19780fa72ba0d47a758938f57b9018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/rail_detector_powered.png using Guid(1d19780fa72ba0d47a758938f57b9018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0bd4e2c34a46c66a0a625dac54b6ad') in 0.006899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/BordelandsTextures/textures/cactus_bottom.png
-  artifactKey: Guid(1ebebc523a6390d4ca514683b5c20a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/cactus_bottom.png using Guid(1ebebc523a6390d4ca514683b5c20a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7755d2bf969df050514bfb96a0a98b7b') in 0.006827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/BordelandsTextures/textures/door_iron_upper.png
-  artifactKey: Guid(50a715726c318724ea1934b44dbcece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/door_iron_upper.png using Guid(50a715726c318724ea1934b44dbcece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba604443bf0aec5b433e5c11158fffc') in 0.008238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/BordelandsTextures/textures/deadbush.png
-  artifactKey: Guid(4594d69ceb56dbc49a63606755a01447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/deadbush.png using Guid(4594d69ceb56dbc49a63606755a01447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a01e06c94e2b3bc83e758418c158845') in 0.007087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/BordelandsTextures/textures/cauldron_top.png
-  artifactKey: Guid(4ca4a0982ce3dc14792765821e4417c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/cauldron_top.png using Guid(4ca4a0982ce3dc14792765821e4417c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8955497853959e56f7adea2a41137c') in 0.006527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/BordelandsTextures/textures/glass_green.png
-  artifactKey: Guid(2d4be3ce21249ad4e9add4fe137e7355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/glass_green.png using Guid(2d4be3ce21249ad4e9add4fe137e7355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcec12ea28e9bd28c67f7e4eee2b25f') in 0.007003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/BordelandsTextures/textures/emerald_ore.png
-  artifactKey: Guid(a2f36cd2ce9dfe04e94490a90c0d1a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/emerald_ore.png using Guid(a2f36cd2ce9dfe04e94490a90c0d1a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a320d92da75a7cca0d9e138151754e') in 0.007310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/BordelandsTextures/textures/fern.png
-  artifactKey: Guid(76a3281e432651947bcfa75832bd36b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/fern.png using Guid(76a3281e432651947bcfa75832bd36b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b446c9efb384274f660aca14219c8469') in 0.007360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/quartz_block_chiseled.png
-  artifactKey: Guid(a1367ec280ed0824791146e603cd0121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/quartz_block_chiseled.png using Guid(a1367ec280ed0824791146e603cd0121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676f61472a2edb9a618a3e074f6cec83') in 0.006806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/BordelandsTextures/textures/cobblestone_mossy.png
-  artifactKey: Guid(352d7ad4a0fc92f4aab9e55ea2c8231f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/cobblestone_mossy.png using Guid(352d7ad4a0fc92f4aab9e55ea2c8231f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a124cc479c1cffd7eb1d806dc40bc005') in 0.007072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/BordelandsTextures/textures/dropper_front_vertical.png
-  artifactKey: Guid(9b4cf6adc660d8f41aa693834a0e1c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/dropper_front_vertical.png using Guid(9b4cf6adc660d8f41aa693834a0e1c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ad6f685a69e2feb79bb9b2620e052e') in 0.007154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/BordelandsTextures/textures/dispenser_front_horizontal.png
-  artifactKey: Guid(d74501517ef6d7f47bc70e580068bbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/dispenser_front_horizontal.png using Guid(d74501517ef6d7f47bc70e580068bbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16af0e49e2410746bb82bdedc61b3a9') in 0.007041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/BordelandsTextures/textures/quartz_block_lines.png
-  artifactKey: Guid(a701828e754f33349adcae01498e39f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/quartz_block_lines.png using Guid(a701828e754f33349adcae01498e39f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615d4bd7c673fea44e71282202f94a28') in 0.007297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/flower_rose.png
-  artifactKey: Guid(49659cc113b70444db0dad9ed2f23951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/flower_rose.png using Guid(49659cc113b70444db0dad9ed2f23951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2ef98a12c2c2e681fb13f30d70b3e7') in 0.006773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/BordelandsTextures/textures/hardened_clay_stained_cyan.png
-  artifactKey: Guid(36bfbedcc41bc4241977966f54d6f0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/hardened_clay_stained_cyan.png using Guid(36bfbedcc41bc4241977966f54d6f0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff2f829e0133abce66e508dc22f98bd') in 0.006909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/lava_still.png
-  artifactKey: Guid(cee0a226b6668e546bdc9e6229ca8a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/lava_still.png using Guid(cee0a226b6668e546bdc9e6229ca8a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ee936fc62a7c7d9ce4f7e79986e127') in 0.007224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/BordelandsTextures/textures/gold_ore.png
-  artifactKey: Guid(303c13003bfef9c4fae717e11dcd9951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/gold_ore.png using Guid(303c13003bfef9c4fae717e11dcd9951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a01951a9362f7311341a17010948f7') in 0.007444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/BordelandsTextures/textures/hardened_clay_stained_brown.png
-  artifactKey: Guid(8145e42db8be8fb4d903dd1ce0cc1dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/hardened_clay_stained_brown.png using Guid(8145e42db8be8fb4d903dd1ce0cc1dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b13b4b075aad6849e6e42d773dd9d8') in 0.007214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/BordelandsTextures/textures/diamond_ore.png
-  artifactKey: Guid(d11f7f400269e6c4e88b89f63366731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/diamond_ore.png using Guid(d11f7f400269e6c4e88b89f63366731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e99b819a9ddf26834952a9a0dbe5483') in 0.008428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/BordelandsTextures/textures/dispenser_front_vertical.png
-  artifactKey: Guid(d50788196fc08544b8d55b0692858be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/dispenser_front_vertical.png using Guid(d50788196fc08544b8d55b0692858be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3feb68749f51b6353dd6ea18231342d5') in 0.007387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/BordelandsTextures/textures/bed_head_end.png
-  artifactKey: Guid(5dc113fe150036d478ad4e6c32a6aefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/bed_head_end.png using Guid(5dc113fe150036d478ad4e6c32a6aefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fe401853c066e3e725ca6c1809fb09') in 0.006787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/bed_feet_top.png
-  artifactKey: Guid(4853690411eb4de4c81e8ad222ce33f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/bed_feet_top.png using Guid(4853690411eb4de4c81e8ad222ce33f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7b3fd2fe9932d90f5037a74147bb34') in 0.007081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/BordelandsTextures/textures/pumpkin_face_off.png
-  artifactKey: Guid(db8a45e44a6335b45a78b7d0bfe8fde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/pumpkin_face_off.png using Guid(db8a45e44a6335b45a78b7d0bfe8fde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daa73fea885eab71f17c9a11af1d5ae') in 0.006753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/BordelandsTextures/textures/furnace_side.png
-  artifactKey: Guid(7821081fcd4c6db43820fade0b77f3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/furnace_side.png using Guid(7821081fcd4c6db43820fade0b77f3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c770ae9b2fbcdf45331b5870304262ca') in 0.007026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/BordelandsTextures/textures/cactus_sides.png
-  artifactKey: Guid(c00ebe2858953f34c9debe2d8dd08fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/cactus_sides.png using Guid(c00ebe2858953f34c9debe2d8dd08fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f906e2bc0794cffa62c34f81a1a8fd') in 0.007482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/BordelandsTextures/textures/dropper_front_horizontal.png
-  artifactKey: Guid(8e6fb1798b2af014b840e3aeabc051bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/dropper_front_horizontal.png using Guid(8e6fb1798b2af014b840e3aeabc051bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62139acb0625a079a6f6e7a30c95283b') in 0.007358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/BordelandsTextures/textures/ladder.png
-  artifactKey: Guid(07109a08a9569ed458e52cd47e1413d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/ladder.png using Guid(07109a08a9569ed458e52cd47e1413d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f08434239e41a6211455c632859538') in 0.006725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/BordelandsTextures/textures/bed_feet_end.png
-  artifactKey: Guid(bac872938d40ddd49b29aa6d886d5391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/bed_feet_end.png using Guid(bac872938d40ddd49b29aa6d886d5391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca415f6b729476e9aa74db88c57254b') in 0.006832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/BordelandsTextures/textures/sand.png
-  artifactKey: Guid(11c1cb0a31f403247b1320ad2dbee1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/sand.png using Guid(11c1cb0a31f403247b1320ad2dbee1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a256e4790458a49988348406a0674f3f') in 0.007343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/pumpkin_top.png
-  artifactKey: Guid(9e5841f193335b14c9b5fa2eb3656901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/pumpkin_top.png using Guid(9e5841f193335b14c9b5fa2eb3656901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629dfff5d91fdd8441ca3cbfeebef28e') in 0.007159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/BordelandsTextures/textures/rail_golden_powered.png
-  artifactKey: Guid(ead80628270190046b40d0b8beb1f05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/rail_golden_powered.png using Guid(ead80628270190046b40d0b8beb1f05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c508b1222f4976c1af149a0e84d12fb') in 0.008011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/BordelandsTextures/textures/red_sand.png
-  artifactKey: Guid(1e2d0b86669388e4aa2540905dd8209b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/red_sand.png using Guid(1e2d0b86669388e4aa2540905dd8209b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4e5dad576b5562a8cf530f8782c460') in 0.006963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/BordelandsTextures/textures/pumpkin_stem_disconnected.png
-  artifactKey: Guid(776623d4d09eb0840956881a9efb8d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/pumpkin_stem_disconnected.png using Guid(776623d4d09eb0840956881a9efb8d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75cb257c323b06c4fac74c0c81c7ab6') in 0.006419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/BordelandsTextures/textures/cactus_side.png
-  artifactKey: Guid(17825738f76b27f4da8b2957e73abd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/cactus_side.png using Guid(17825738f76b27f4da8b2957e73abd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc2878468cf963d710cd3e64c1982bf') in 0.007386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/BordelandsTextures/textures/log_oak.png
-  artifactKey: Guid(5691ba83e0ca52c41afe7307e5fafd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/log_oak.png using Guid(5691ba83e0ca52c41afe7307e5fafd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f8343a4d187fd5fea6d0bcf5e7761a') in 0.008750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/BordelandsTextures/textures/pumpkin_face_on.png
-  artifactKey: Guid(d28ae34c343c2dd438d2819b7e070dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/pumpkin_face_on.png using Guid(d28ae34c343c2dd438d2819b7e070dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791db0b3aeb762ce19c988ac2af7e708') in 0.007348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/BordelandsTextures/textures/crafting_table_side.png
-  artifactKey: Guid(9fb101ca84338664ca6022c2f1a725d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/crafting_table_side.png using Guid(9fb101ca84338664ca6022c2f1a725d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6baf39ac29581735ef96471aae4a44e0') in 0.007020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/BordelandsTextures/textures/hardened_clay_stained_red.png
-  artifactKey: Guid(501cfa181352b6f4db6c5e7dd1fd5bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/hardened_clay_stained_red.png using Guid(501cfa181352b6f4db6c5e7dd1fd5bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea9ec32df932afe6d71c7acad769e11') in 0.006922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/double_plant_paeonia_bottom.png
-  artifactKey: Guid(17e10cafec28cef4fa2f738cfa125830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/double_plant_paeonia_bottom.png using Guid(17e10cafec28cef4fa2f738cfa125830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21094cbc504378e121640b8b979c22d') in 0.006696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/cauldron_inner.png
-  artifactKey: Guid(440587b93638d99458060510955dff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/cauldron_inner.png using Guid(440587b93638d99458060510955dff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebaf47f648452a818173619cd776e79') in 0.006935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/BordelandsTextures/textures/door_wood_upper.png
-  artifactKey: Guid(ac17dc7408a4e9f44bf6076ee2601b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/door_wood_upper.png using Guid(ac17dc7408a4e9f44bf6076ee2601b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3918bf705d73e19ea1385345e323820a') in 0.007181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/BordelandsTextures/textures/grass_top.png
-  artifactKey: Guid(4414dbf8e0a0ccf4eb0830c2dc4805e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/grass_top.png using Guid(4414dbf8e0a0ccf4eb0830c2dc4805e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2a35b014c1959c9509a79f8c5485ba') in 0.007100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/sandstone_craved.png
-  artifactKey: Guid(7e6b570c3386d834585b381f7ea53521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/sandstone_craved.png using Guid(7e6b570c3386d834585b381f7ea53521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c5266fbfa4c03350bb036b5566c7fa') in 0.007789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/BordelandsTextures/textures/hardened_clay_stained_gray.png
-  artifactKey: Guid(bd291f4203e00a148b3206e77f31900e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/hardened_clay_stained_gray.png using Guid(bd291f4203e00a148b3206e77f31900e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0759c83eb47d085677ac47e4765bfd35') in 0.007149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/BordelandsTextures/textures/bed_head_top.png
-  artifactKey: Guid(920760ce5e3ab1e44b7c120b48443d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/bed_head_top.png using Guid(920760ce5e3ab1e44b7c120b48443d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97406ea774442a8025751b8b261f42dc') in 0.008060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/BordelandsTextures/textures/dirt.png
-  artifactKey: Guid(37c20bcbb58f0f54db8b5437fc447b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/dirt.png using Guid(37c20bcbb58f0f54db8b5437fc447b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a00fbd2f7ea28fb607f1b8a5513db3d') in 0.007482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/BordelandsTextures/textures/sandstone_bottom.png
-  artifactKey: Guid(790f8fce3a063794cbdb3b1bf01fe64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/sandstone_bottom.png using Guid(790f8fce3a063794cbdb3b1bf01fe64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8a97b5f37abaa4ddc3d9b7815aaae9') in 0.007274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/BordelandsTextures/textures/door_wood_lower.png
-  artifactKey: Guid(41be21a51f1293348adb39c9c2c11060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/door_wood_lower.png using Guid(41be21a51f1293348adb39c9c2c11060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5862b9a56261ce4b108d54c0c00c2bd2') in 0.006944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/BordelandsTextures/textures/hardened_clay_stained_orange.png
-  artifactKey: Guid(2194a5570d5d22c49bed5609dffba585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/hardened_clay_stained_orange.png using Guid(2194a5570d5d22c49bed5609dffba585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0679f5e8ec788f14b7030ae3af5117') in 0.006842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/BordelandsTextures/textures/planks_spruce.png
-  artifactKey: Guid(a52fca11ef2e92642a6ed9006b3d7989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/planks_spruce.png using Guid(a52fca11ef2e92642a6ed9006b3d7989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d69afffaa033c9d1a719d5eb6ea17a9') in 0.006890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/BordelandsTextures/textures/jukebox_top.png
-  artifactKey: Guid(d158ca251c4c99847953a182f6e4a0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/jukebox_top.png using Guid(d158ca251c4c99847953a182f6e4a0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c280599a4b9bcecf791ecc53260d17a5') in 0.008274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/BordelandsTextures/textures/rail_golden.png
-  artifactKey: Guid(2e61109fe489c884ab7229ca669fb978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/rail_golden.png using Guid(2e61109fe489c884ab7229ca669fb978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b1a788f6de04f1586498e68dc91e06') in 0.007347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/BordelandsTextures/textures/hardened_clay_stained_light_blue.png
-  artifactKey: Guid(38c6c27ca53787043a2b0b9b58a01479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/hardened_clay_stained_light_blue.png using Guid(38c6c27ca53787043a2b0b9b58a01479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c38c8c9fb0905e349ce0253ba2ba35') in 0.006936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/BordelandsTextures/textures/quartz_block_chiseled_top.png
-  artifactKey: Guid(0be6d123ad0960a4597960c3117dfa18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/quartz_block_chiseled_top.png using Guid(0be6d123ad0960a4597960c3117dfa18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745532e2e9f6505cbcbc97234ab57a88') in 0.007181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/BordelandsTextures/textures/crafting_table_front.png
-  artifactKey: Guid(85797e16c247a3f46b1bb45b63f47cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/crafting_table_front.png using Guid(85797e16c247a3f46b1bb45b63f47cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc7b3d81e3168c2e8dccb85a5074c68') in 0.006820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/BordelandsTextures/textures/sandstone_carved.png
-  artifactKey: Guid(eba20b773e095564f9cc00ed7124622d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/sandstone_carved.png using Guid(eba20b773e095564f9cc00ed7124622d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aef4bf0cc82b837a803a581a6ef286b') in 0.009848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/BordelandsTextures/textures/planks_acacia.png
-  artifactKey: Guid(cc174d03b2795bc458eabd50769c445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/planks_acacia.png using Guid(cc174d03b2795bc458eabd50769c445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5875ca7eac256c28299d2a3b4ed54454') in 0.007527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/BordelandsTextures/textures/glowstone.png
-  artifactKey: Guid(11061cf7f94e40941834d20ff5e13f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/glowstone.png using Guid(11061cf7f94e40941834d20ff5e13f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190182bb0168e271d0ba5fe02bded511') in 0.006988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/BordelandsTextures/textures/furnace_top.png
-  artifactKey: Guid(a2af7a0b4641f7349b9baecaf29e08b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/furnace_top.png using Guid(a2af7a0b4641f7349b9baecaf29e08b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff96e4ba3ffa624a6a150e190dff6c57') in 0.006635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/hardened_clay_stained_yellow.png
-  artifactKey: Guid(951cc302ca2fb974d9370dc1b3ec6500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/hardened_clay_stained_yellow.png using Guid(951cc302ca2fb974d9370dc1b3ec6500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8d338a600b9ddad54952f0e3746f1e') in 0.012093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/BordelandsTextures/textures/bedrock.png
-  artifactKey: Guid(cfaad96312ede0949a332d22accf46bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/bedrock.png using Guid(cfaad96312ede0949a332d22accf46bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88ee104dbe5d89c9d40ce03397616d1') in 0.008594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/BordelandsTextures/textures/pumpkin_side.png
-  artifactKey: Guid(665dfb2dced589747ae2c6d684cf5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/pumpkin_side.png using Guid(665dfb2dced589747ae2c6d684cf5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef83eeccc35fb7327affd4f96f63f4f') in 0.006917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/BordelandsTextures/textures/rail_normal.png
-  artifactKey: Guid(2941093da18400247b91ced15e0ca14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/rail_normal.png using Guid(2941093da18400247b91ced15e0ca14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f1b0f36b12e98780ab1594f84d04a2') in 0.006785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/BordelandsTextures/textures/quartz_block_bottom.png
-  artifactKey: Guid(bb54ee642242d824ea991b3333339d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/quartz_block_bottom.png using Guid(bb54ee642242d824ea991b3333339d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4999061f72bc46670aeaca57302f8ee') in 0.008740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/BordelandsTextures/textures/pumpkin_stem_connected.png
-  artifactKey: Guid(68111ed5a0e3b2d4cb0ca93e011ce36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/pumpkin_stem_connected.png using Guid(68111ed5a0e3b2d4cb0ca93e011ce36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd517386cf0e7daa9f22c726ab82ecb71') in 0.006256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/BordelandsTextures/textures/carrots_stage_0.png
-  artifactKey: Guid(0e2bf5bbee932dc4b8d158d74d9f553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/carrots_stage_0.png using Guid(0e2bf5bbee932dc4b8d158d74d9f553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2159fec0fc1b563932ef35f98f18ee88') in 0.006869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/BordelandsTextures/textures/quartz_block_lines_top.png
-  artifactKey: Guid(aead016a88dd6ea47bf022ea30f02379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/quartz_block_lines_top.png using Guid(aead016a88dd6ea47bf022ea30f02379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b3953d171c1d1a5bd1fa23e8a5ac58') in 0.011029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/BordelandsTextures/textures/sandstone_normal.png
-  artifactKey: Guid(480595a3ff81e5340a5b3d4e3f13e01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/sandstone_normal.png using Guid(480595a3ff81e5340a5b3d4e3f13e01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797e92f50e6844f05f180653bd0fa646') in 0.007576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/BordelandsTextures/textures/rail_detector.png
-  artifactKey: Guid(4a722d9a88c9dac47b432e4c0be23a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/rail_detector.png using Guid(4a722d9a88c9dac47b432e4c0be23a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ac3126736180a2a2f45c778dd03541') in 0.006664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/BordelandsTextures/textures/carrots_stage_2.png
-  artifactKey: Guid(f8ccc8da9f402804ea46cd3e70bea9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/carrots_stage_2.png using Guid(f8ccc8da9f402804ea46cd3e70bea9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b606b0353176bf720c6dc2c4e2ab89') in 0.012762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/BordelandsTextures/textures/flower_allium.png
-  artifactKey: Guid(d443c5c7079d23e4f85f41b503969949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/flower_allium.png using Guid(d443c5c7079d23e4f85f41b503969949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e19c57f206d5210d440a71bc56a64d5') in 0.009238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/BordelandsTextures/textures/iron_block.png
-  artifactKey: Guid(fc9658424e274514bb98dda5e999139b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/iron_block.png using Guid(fc9658424e274514bb98dda5e999139b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9333cce477221d2a5b52a2c6e33d7b6c') in 0.007440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/BordelandsTextures/textures/hardened_clay_stained_magenta.png
-  artifactKey: Guid(38e7b834bc3dc6944a9e1905b46512d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/hardened_clay_stained_magenta.png using Guid(38e7b834bc3dc6944a9e1905b46512d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8bc98cb43fd3d302142ad2dab894a2') in 0.007239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/BordelandsTextures/textures/iron_ore.png
-  artifactKey: Guid(f4f29f3deca9a0548813bd6a4393ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BordelandsTextures/textures/iron_ore.png using Guid(f4f29f3deca9a0548813bd6a4393ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6877e0fa2825adc9c9cc9fe1b71880') in 0.007220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 63.943949 seconds.
-  path: Assets/models/Sword/Sword1.jpg
-  artifactKey: Guid(b3799e03286abfa4b85f934ca58a640f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sword/Sword1.jpg using Guid(b3799e03286abfa4b85f934ca58a640f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f6daedd7a2889c5ecfe6daf127ad1a') in 0.587348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/models/Sword/SwordGame.3ds
-  artifactKey: Guid(df39b94eb99385b4eba59994f9cdf1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sword/SwordGame.3ds using Guid(df39b94eb99385b4eba59994f9cdf1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780b463a5c21d1585c1f48bcd3825b0e') in 0.948338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/models/Sword/SwordGame.fbx
-  artifactKey: Guid(3f3ffcd0c0b25ca45a7c9851c985d264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sword/SwordGame.fbx using Guid(3f3ffcd0c0b25ca45a7c9851c985d264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab956522460a5d44dfb68c76d3802ca9') in 0.364467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/models/Sword/SwordGame.obj
-  artifactKey: Guid(1a0fd9b93c5ae0c41ae72d44b1f70584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sword/SwordGame.obj using Guid(1a0fd9b93c5ae0c41ae72d44b1f70584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c00aa263da64e018caf7ef42823350d') in 0.924901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/models/Lambent_Female/Lambent_Female_N.tga
-  artifactKey: Guid(00c304da3c1f53b4f8335d0a3d04c947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Lambent_Female/Lambent_Female_N.tga using Guid(00c304da3c1f53b4f8335d0a3d04c947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420c6cf029fde32cb4e68f1bc8bdefd6') in 0.587646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/models/Lambent_Female/Lambent_Female_E.tga
-  artifactKey: Guid(552a3ce06a73ce446a36ed91c4360e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Lambent_Female/Lambent_Female_E.tga using Guid(552a3ce06a73ce446a36ed91c4360e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dad17f846a813c037dbd96c866054e') in 0.014834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/models/Lambent_Female/Lambent_Female.fbx
-  artifactKey: Guid(c78068908f8aadb45a12635af21fcb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Lambent_Female/Lambent_Female.fbx using Guid(c78068908f8aadb45a12635af21fcb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbce74e8fce4635af86077b3c09e4e55') in 0.024006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/models/Lambent_Female/Lambent_Female_D.tga
-  artifactKey: Guid(d0f33628c2424e347a8f885f2cb0c123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Lambent_Female/Lambent_Female_D.tga using Guid(d0f33628c2424e347a8f885f2cb0c123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acd02d09ed390e64a040f17e24d3718') in 0.008224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/models/Sword/sword2.jpg
-  artifactKey: Guid(0719dbd910137d24ebfdafa99059d546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sword/sword2.jpg using Guid(0719dbd910137d24ebfdafa99059d546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4adbd0d18a4b0d6342d11f3df96a8cd') in 0.007403 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/models/Lambent_Female/Lambent_Female_S.tga
-  artifactKey: Guid(1db7c4a460ae1214e9ccc544d06f027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Lambent_Female/Lambent_Female_S.tga using Guid(1db7c4a460ae1214e9ccc544d06f027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77d38a9172087145474d7055880177c') in 0.008791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.079914 seconds.
+  Time since last request: 228963.982807 seconds.
   path: Assets/Scenes/ex00.unity
   artifactKey: Guid(bdbe4580c23664cdc9745e7ae934d318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ex00.unity using Guid(bdbe4580c23664cdc9745e7ae934d318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4e7f1147bdfc9bcc772ddb3d6435f2') in 0.004602 seconds 
+Start importing Assets/Scenes/ex00.unity using Guid(bdbe4580c23664cdc9745e7ae934d318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65aabe7aaf982fb83c0b147a4f508d2') in 0.006584 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003013 seconds.
+Registered in 0.002713 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /opt/goinfre/kferterb/my/day08/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /opt/goinfre/kferterb/my/day08/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /opt/goinfre/kferterb/my_new/day08/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /opt/goinfre/kferterb/my_new/day08/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.347 seconds
+- Completed reload, in  1.300 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1348ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (1300ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (1073ms)
-			LoadAssemblies (76ms)
+		EndReloadAssembly (1033ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (368ms)
+			SetupTypeCache (355ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (502ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (154ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4007 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (23.1 KB). Loaded Objects now: 4458.
-Memory consumption went from 283.8 MB to 283.8 MB.
-Total: 6.567269 ms (FindLiveObjects: 0.286765 ms CreateObjectMapping: 0.235131 ms MarkObjects: 6.001834 ms  DeleteObjects: 0.042292 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002763 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /opt/goinfre/kferterb/my/day08/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /opt/goinfre/kferterb/my/day08/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.293 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1294ms)
-		BeginReloadAssembly (147ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (1027ms)
-			LoadAssemblies (57ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
+			RebuildScriptCaches (57ms)
 			SetupLoadedEditorAssemblies (490ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
@@ -1051,12 +214,12 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4007 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (23.3 KB). Loaded Objects now: 4461.
-Memory consumption went from 284.0 MB to 284.0 MB.
-Total: 6.749915 ms (FindLiveObjects: 0.268904 ms CreateObjectMapping: 0.244067 ms MarkObjects: 6.205013 ms  DeleteObjects: 0.030734 ms)
+Unloading 53 unused Assets / (23.2 KB). Loaded Objects now: 4447.
+Memory consumption went from 253.6 MB to 253.6 MB.
+Total: 6.864096 ms (FindLiveObjects: 0.269618 ms CreateObjectMapping: 0.210152 ms MarkObjects: 6.345721 ms  DeleteObjects: 0.037628 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
