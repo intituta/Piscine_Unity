@@ -1164,8 +1164,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  hp: 40
-  damage: 5
+  hp: 10
+  damage: 7
   detectRange: 15
   attackRange: 2
   isKilled: 0
