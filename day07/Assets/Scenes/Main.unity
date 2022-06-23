@@ -1873,6 +1873,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1405710889302404, guid: 55795cdff9c9d40d282a1df19cc6e5d6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1735290578734548, guid: 55795cdff9c9d40d282a1df19cc6e5d6, type: 3}
       propertyPath: m_Name
       value: FullTank
@@ -1908,6 +1912,21 @@ PrefabInstance:
     - target: {fileID: 4951806072647420, guid: 55795cdff9c9d40d282a1df19cc6e5d6, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23032654487177080, guid: 55795cdff9c9d40d282a1df19cc6e5d6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23032654487177080, guid: 55795cdff9c9d40d282a1df19cc6e5d6,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23451065230326482, guid: 55795cdff9c9d40d282a1df19cc6e5d6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 82422065822413078, guid: 55795cdff9c9d40d282a1df19cc6e5d6,
         type: 3}
