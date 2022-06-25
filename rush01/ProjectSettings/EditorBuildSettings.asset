@@ -6,17 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ex00.unity
+    path: Assets/Scenes/TestLocation.unity
     guid: 728d0ed0899664374aba7274f87f7d53
   - enabled: 1
-    path: Assets/Scenes/outside.unity
+    path: Assets/Scenes/Desingn4.unity
     guid: 4a6011b470d4e4bcd9db744f4df09b89
   - enabled: 1
-    path: Assets/Scenes/donjon00.unity
+    path: Assets/Scenes/Design1.unity
     guid: 26b056e34d1df4e8d9b33503c604efb2
   - enabled: 1
-    path: Assets/Scenes/donjon01.unity
+    path: Assets/Scenes/Design2.unity
     guid: 795a1b6c2b6a94a90a43ae690e2a6ed0
   - enabled: 1
-    path: Assets/Scenes/donjon02.unity
+    path: Assets/Scenes/Design3.unity
     guid: fd0eef3f5ee824b518e7c4209d637233
+  m_configObjects: {}
