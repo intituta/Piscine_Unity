@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Desingn4.unity
     guid: 4a6011b470d4e4bcd9db744f4df09b89
   - enabled: 1
-    path: Assets/Scenes/Design1.unity
+    path: Assets/Scenes/Level1.unity
     guid: 26b056e34d1df4e8d9b33503c604efb2
   - enabled: 1
     path: Assets/Scenes/Design2.unity
