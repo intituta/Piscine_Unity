@@ -7853,7 +7853,7 @@ PrefabInstance:
     - target: {fileID: 136179404545487472, guid: da39d82aefb1a4110a7974bbd3597cd2,
         type: 3}
       propertyPath: m_Radius
-      value: 0.28
+      value: 0.17
       objectReference: {fileID: 0}
     - target: {fileID: 136179404545487472, guid: da39d82aefb1a4110a7974bbd3597cd2,
         type: 3}
@@ -7863,7 +7863,7 @@ PrefabInstance:
     - target: {fileID: 136179404545487472, guid: da39d82aefb1a4110a7974bbd3597cd2,
         type: 3}
       propertyPath: m_Center.x
-      value: 0.16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 136179404545487472, guid: da39d82aefb1a4110a7974bbd3597cd2,
         type: 3}
@@ -7873,7 +7873,7 @@ PrefabInstance:
     - target: {fileID: 136179404545487472, guid: da39d82aefb1a4110a7974bbd3597cd2,
         type: 3}
       propertyPath: m_Center.z
-      value: 0.22321132
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 136179404545487472, guid: da39d82aefb1a4110a7974bbd3597cd2,
         type: 3}
@@ -7884,6 +7884,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 195613261611884980, guid: da39d82aefb1a4110a7974bbd3597cd2,
+        type: 3}
+      propertyPath: m_Height
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 195613261611884980, guid: da39d82aefb1a4110a7974bbd3597cd2,
         type: 3}
@@ -7907,6 +7912,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da39d82aefb1a4110a7974bbd3597cd2, type: 3}
+--- !u!1 &1178240702 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1144772183660104, guid: da39d82aefb1a4110a7974bbd3597cd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1178240701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1178240703 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4190218370938202, guid: da39d82aefb1a4110a7974bbd3597cd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1178240701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1178240704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178240702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00fe4a6affc314ba2bd09717cccf9e89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1178240703}
+  ischasing: 0
+  range: 0
+  atk_range: 0
+  hp: 0
+  animator: {fileID: 0}
+  time: 0
+  player_stats: {fileID: 0}
+  ishiting: 0
+  health_pot: {fileID: 0}
+  DropWeapon: {fileID: 0}
+  STR: 0
+  AGI: 0
+  CON: 0
+  ARMOR: 0
+  minDMG: 0
+  maxDMG: 0
+  baseDMG: 0
+  level: 0
+  xp: 0
+  money: 0
 --- !u!1 &1183744837
 GameObject:
   m_ObjectHideFlags: 0
