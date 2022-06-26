@@ -163,9 +163,15 @@ public class Move_maya : MonoBehaviour
 
     public void attack()
     {
+        float damage_calculation;
+
+        if (Weapon)
+            damage_calculation = (float)Random.Range(minDMG, maxDMG) + Weapon.Damage;
+        else
+            damage_calculation = (float)Random.Range(minDMG, maxDMG);
         if (Random.Range(0, 100) < (75 + AGI - zombie_stats.AGI))
         {
-            zombie_stats.hp -= (int)(Random.Range(minDMG, maxDMG) * (1 - zombie_stats.ARMOR / 200));
+            zombie_stats.hp -= damage_calculation * (1 - zombie_stats.ARMOR / 200);
             Debug.Log((int)(Random.Range(minDMG, maxDMG) * (1 - zombie_stats.ARMOR / 200)));
             if (zombie_stats.hp <= 0)
             {
