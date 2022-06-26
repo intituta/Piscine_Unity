@@ -48,8 +48,8 @@ public class Zombie_scripts_BOSS : MonoBehaviour
         money = (int)(2 * (1 + 0.5 * (level - 1)));
 
         hp = 3000000;
-        minDMG = 25;
-        maxDMG = 200;
+        minDMG = 15;
+        maxDMG = 25;
     }
 
     // Update is called once per frame
